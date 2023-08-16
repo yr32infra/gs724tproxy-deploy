@@ -16,7 +16,7 @@ services:
 
       - type: volume
         source: cache_data
-        target: /var/cache
+        target: /var/cache/nginx
 
     deploy:
       resources:
