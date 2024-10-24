@@ -27,7 +27,7 @@ services:
       - default
 
   cloudflared:
-    image: cloudflare/cloudflared:2024.6.1@sha256:b809ea110a98112b0ed98b7d976e373c70321541f1a8f592e7932dd63cbf6c5a
+    image: cloudflare/cloudflared:2024.10.1@sha256:52b9529db08f7ef827a2bce04b91945b475c651e46f583c30b70dd6773262ae3
     hostname: cloudflared
     container_name: gs724tproxy__cloudflared
 
